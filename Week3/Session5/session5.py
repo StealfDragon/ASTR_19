@@ -8,7 +8,7 @@ def main():
     print("|             |             |")
     print("-----------------------------")
     while(x <= (2 * math.pi)):
-        print("| %-11f | %-11f |" % (x, math.sin(x)))
+        print("| %-11.9f | %-11.9f |" % (x, math.sin(x)))
         print("-----------------------------")
         x += (2 * math.pi / 1000)
     
