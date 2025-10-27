@@ -1,7 +1,11 @@
+import sys
 import numpy as np
 
-x = np.linspace(0.0, 1.0, 9)
+def main():
+    x = 0.0
+    for i in range(0, 20):
+        x = (2 * i) + 19.0
+        print(f"The value of x is {x}")
 
-print(x)
-print("")
-print(x**2)
+if __name__ == "__main__":
+    main()
